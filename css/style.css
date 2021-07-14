@@ -239,6 +239,71 @@ img{
     margin-left: 8px;
 }
 /* Blog Style End */
+
+/* Subscribe Style Start */
+.subscribe{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.email-banner{
+
+}
+.email-banner img{
+    
+}
+.subscribe-field{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+.subscribe-txt{align-self: center;}
+.subscribe-txt h2{
+    color: #2D25A0;
+    font-size: 44px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.subscribe-txt p{
+    margin: 10px 0 40px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+    font-weight: 400;
+}
+.subscribe-input{
+    display: flex;
+    flex-direction: column;
+}
+.subscribe-input input{
+    width: 402px;
+    height: 36px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #2D25A0;
+}
+.subscribe-input button{
+    width: 150px;
+    height: 42px;
+    padding: 8px 20px;
+}
+.subscribe-input button a{
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.subscribe-input button a i{
+    margin-left: 5px;
+}
+
+
+
+/* Subscribe Style End */
+
+
 /*===== Main Style End =====*/
 
 /*===== Footer Style Start =====*/
