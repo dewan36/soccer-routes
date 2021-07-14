@@ -61,7 +61,10 @@ img{
     margin-bottom: 27px;
 }
 .hero-text .hero-btn{
-
+    transition: 0.4s;
+}
+.hero-text .hero-btn:hover{
+    transform: skew(-20deg)
 }
 .hero-text .hero-btn a{
     color: white;
@@ -78,6 +81,10 @@ img{
 }
 .hero-banner img{
     width: 555px;
+    transition: 0.8s;
+}
+#hero-section:hover .hero-banner img{
+    transform: translateY(-25px) skew(5deg);
 }
 /*===== Header Style End =====*/
 
