@@ -1,0 +1,101 @@
+@media screen and (max-width:992px){
+    .container-hd, .container-main, .container-ft{
+        width: 100%;
+    }
+    .hero-text .hero-title{
+        font-size: 50px;
+    }
+    .players-box{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .highlights-info h2{
+        font-size: 42px;
+    }
+    .highlights-cover{
+        box-shadow: none;
+    }
+    .logo-img{
+        width: 60%;
+    }
+}
+@media only screen and (max-width:688px){
+    .container-hd, .container-main, .container-ft{
+        width: 100%;
+    }
+    .player-card, .highlights-info, .highlights-cover, .blog{
+        width: 80%;
+        margin: auto
+    }
+    .highlights-info h2, .blog-title {
+        font-size: 40px;
+    }
+    #hero-section{
+        padding: 112px 0 60px;
+    }
+    .hero-area{
+        grid-template-columns: auto;
+        grid-row-gap: 50px;
+    }
+    .hero-text{
+        margin: auto;
+        padding-right: 176px;
+        box-sizing: border-box;
+        width: 80%;
+        margin-bottom: 15px;
+    }
+    .hero-text .hero-title{
+        font-size: 45px;
+    }
+    .hero-banner, .email-banner{
+        width: 70%;
+        margin: auto;
+    }
+    #hero-section:hover .hero-banner img{
+        transform: translateY(-10px) skew(2deg);
+    }
+    .players-box{
+        grid-template-columns: auto;
+    }
+    .highlights-match{
+        padding: 60px 0 60px;
+        grid-template-columns: auto;
+        grid-row-gap: 30px;
+    }
+    .blog-title{
+        text-align: center;
+    }
+    .latest-blogs{
+        grid-template-columns: auto;
+    }
+    .subscribe{
+        grid-template-columns: auto;
+    }
+    .subscribe-txt h2{
+        font-size: 40px;
+        text-align: center;
+    }
+    .subscribe-input{
+        align-items: center;
+        width: 80%;
+        margin: auto;
+    }
+    .subscribe-input input{
+        width: 300px;
+    }
+    .logo-img img{
+        width: 80%;
+    }
+    #footer-section{
+        padding-bottom: 160px;
+    }
+}
+@media only screen and (max-width:435px){
+    .hero-text{
+        padding-right: 0px;
+    }
+    .highlights-info p{
+        padding-right: 60px;
+        box-sizing: border-box;
+        margin: 24px 0 28px;
+    }
+}
