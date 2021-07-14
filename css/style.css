@@ -174,6 +174,71 @@ img{
 }
 /* Highlights Style End */
 
+/* Blog Style Start */
+.blog-section{
+    padding: 30px 0 50px;
+}
+.blog-title {
+    color: #2D25A0;
+    font-size: 44px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 0 0 30px;
+}
+.latest-blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.blog{
+    background: #fdfdfd;
+    border-radius: 8px;
+    box-shadow: 3px 8px 15px 0px #e4e4e4;
+    transition: 0.5s;
+}
+.blog:hover{
+    box-shadow: none;
+}
+.blog-img{
+
+}
+.blog-img img{
+    
+}
+.blog-detail{
+    padding: 0px 20px;
+}
+.blog-detail h3{
+    margin-top: 12px;
+    font-size: 26px;
+    line-height: 35px;
+    color: #18191F;
+}
+.blog-detail p{
+    margin: 15px 0 25px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+    font-weight: 400;
+}
+.blog-detail p a{
+    margin-top: 20px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    width: 125px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    box-shadow: 0px 0px 7px 0px #00000026;
+    border-radius: 5px;
+    background: #f5deb326;
+}
+.blog-detail p a i{
+    margin-left: 8px;
+}
+/* Blog Style End */
 /*===== Main Style End =====*/
 
 /*===== Footer Style Start =====*/
@@ -223,5 +288,4 @@ img{
     font-size: 18px;
     line-height: 24px;
 }
-
 /*===== Footer Style End =====*/
