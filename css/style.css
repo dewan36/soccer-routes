@@ -27,6 +27,9 @@ button a{
 .container-main{
     width: 1050px;
 }
+.container-ft{
+    width: 485px;
+}
 img{
     max-width: 100%;
 }
@@ -79,6 +82,8 @@ img{
 /*===== Header Style End =====*/
 
 /*===== Main Style Start =====*/
+
+/* Players Style Start */
 #main-section{
     padding: 80px 0 80px;
     display: flex;
@@ -121,9 +126,9 @@ img{
     color: #6C6C6C;
     font-weight: 400;
 }
-/*===== Main Style End =====*/
+/* Players Style Start /
 
-/*===== Highlights Style Start =====*/
+/* Highlights Style Start */
 .highlights-match{
     padding: 165px 0 150px;
     display: grid;
@@ -143,6 +148,7 @@ img{
     font-weight: 700;
 }
 .highlights-info p{
+    width: 405px;
     margin: 10px 0 25px;
     font-size: 16px;
     font-weight: 400;
@@ -166,4 +172,56 @@ img{
 .highlights-cover img{
     margin-bottom: -7px;
 }
-/*===== Highlights Style End =====*/
+/* Highlights Style End */
+
+/*===== Main Style End =====*/
+
+/*===== Footer Style Start =====*/
+#footer-section{
+    padding-bottom: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo-img{
+    display: flex;
+    justify-content: center;
+}
+.logo-img img{
+    width: 92%;
+}
+.social-icons{
+    display: flex;
+    margin: 20px 0;
+}
+.social-icons a{
+    margin: 0 5px;
+    display: block;
+    background: #0b0d170d;
+    width: 32px;
+    height: 32px;
+    border-radius: 30px;
+    position: relative;
+}
+.social-icons a i{
+    text-decoration: none;
+    color: #969BAB;
+    position: absolute;
+    top: 8px;
+    left: 8.8px;
+}
+.copyright-txt{
+
+}
+.copyright-txt p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+/*===== Footer Style End =====*/
