@@ -10,8 +10,16 @@ body{
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
 }
+button{
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    border: none;
+    width: 168px;
+    height: 44px;
+}
 button a{
     font-family: 'Poppins', sans-serif;
+    text-decoration: none;
 }
 .container-hd{
     width: 1145px;
@@ -50,15 +58,10 @@ img{
     margin-bottom: 27px;
 }
 .hero-text .hero-btn{
-    background-color: #E02C6D;
-    padding: 10px 24px;
-    border: none;
-    width: 168px;
-    height: 44px;
+
 }
 .hero-text .hero-btn a{
     color: white;
-    text-decoration: none;
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
@@ -119,3 +122,48 @@ img{
     font-weight: 400;
 }
 /*===== Main Style End =====*/
+
+/*===== Highlights Style Start =====*/
+.highlights-match{
+    padding: 165px 0 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.highlights-info{
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.highlights-info h2{
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 700;
+}
+.highlights-info p{
+    margin: 10px 0 25px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.highlights-info .higlights-btn{
+
+}
+.higlights-btn a{
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.higlights-btn i{
+    margin-left: 8px;
+}
+.highlights-cover{
+    box-shadow: 16px 16px 0px 0px #2d25a0e6;
+}
+.highlights-cover img{
+    margin-bottom: -7px;
+}
+/*===== Highlights Style End =====*/
